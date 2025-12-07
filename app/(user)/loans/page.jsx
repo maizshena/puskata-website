@@ -3,17 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
-import { 
-  BookOpen, 
-  Clock, 
-  CheckCircle, 
-  XCircle, 
-  AlertCircle,
-  Calendar,
-  DollarSign,
-  Loader2,
-  RotateCcw
-} from 'lucide-react';
+import { BookOpen, Clock, CheckCircle, XCircle, AlertCircle, Calendar, DollarSign, Loader2, RotateCcw } from 'lucide-react';
 
 export default function UserLoansPage() {
   const { data: session, status } = useSession();
